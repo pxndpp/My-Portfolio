@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Suwaphat Lamaisakun — Computer Science student and aspiring Software development. View my projects, skills, and get in touch." />
+  <meta property="og:title" content="Suwaphat Lamaisakun | Portfolio" />
+  <meta property="og:description" content="Building the future, one byte at a time." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#4F46E5" />
+  <title>Suwaphat Lamaisakun | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Devicons — tech stack logos -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <!-- Preconnect for Google Fonts performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+  ============================================================ -->
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">Suwaphat L<span>.</span></a>
+      <div class="nav-links" id="nav-links">
+        <a href="#about" id="nav-about">About</a>
+        <a href="#skills" id="nav-skills">Skills</a>
+        <a href="#projects" id="nav-projects">Projects</a>
+        <a href="#education" id="nav-education">Education</a>
+        <a href="#contact" id="nav-contact">Contact</a>
+      </div>
+      <div class="theme-switch-wrap" title="Toggle theme">
+        <!-- Sun icon -->
+        <svg class="switch-icon switch-icon--sun" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+          <line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+        </svg>
+        <input type="checkbox" id="theme-toggle" role="switch" aria-label="Toggle dark mode" aria-checked="false" />
+        <label for="theme-toggle" class="theme-switch-label">
+          <span class="theme-switch-thumb"></span>
+        </label>
+        <!-- Moon icon -->
+        <svg class="switch-icon switch-icon--moon" xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/>
+        </svg>
+      </div>
+      <button id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       HERO
+  ============================================================ -->
+  <section id="hero">
+    <div class="container">
+      <p class="hero-eyebrow fade-in">👋 <span id="greeting-text">Hello</span></p>
+      <h1 class="hero-name fade-in">Suwaphat Lamaisakun</h1>
+      <p class="hero-tagline fade-in">Building the future, one byte at a time.</p>
+      <div class="hero-cta fade-in">
+        <a href="#projects" class="btn btn-primary" id="hero-view-projects">View Projects</a>
+        <a href="assets/resume.pdf" class="btn btn-outline" id="hero-download-cv" download>
+          <!-- Download icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5 5-5M12 15V3"/></svg>
+          Download CV
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ABOUT
+  ============================================================ -->
+  <section id="about">
+    <div class="container">
+      <p class="section-label fade-in">Who I am</p>
+      <h2 class="section-title fade-in">About Me</h2>
+      <div class="divider fade-in"></div>
+      <div class="about-grid">
+        <div class="fade-in">
+          <img
+            src="assets/avatar.jpg"
+            alt="Suwaphat Lamaisakun profile photo"
+            class="about-avatar"
+            id="profile-avatar"
+            loading="lazy"
+          />
+        </div>
+        <div class="about-text fade-in">
+          <p>
+            Hi! I'm <strong>Suwaphat Lamaisakun</strong>, a passionate Computer Science student with a strong interest in Software development and building products that make a difference.
+          </p>
+          <p>
+            I enjoy working across the full stack — from crafting responsive user interfaces to designing scalable back-end systems. I'm always eager to learn new technologies and best practices.
+          </p>
+          <p>
+            Currently seeking an internship opportunity in any related role where I can contribute to real-world projects, grow alongside experienced engineers, and continue turning ideas into working software.
+          </p>
+          <div class="about-tags">
+            <span class="tag">Open to Internship</span>
+            <span class="tag">Full-Stack</span>
+            <span class="tag">Problem Solver</span>
+            <span class="tag">Fast Learner</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SKILLS
+  ============================================================ -->
+  <section id="skills">
+    <div class="container">
+      <p class="section-label fade-in">What I know</p>
+      <h2 class="section-title fade-in">Skills & Tech Stack</h2>
+      <div class="divider fade-in"></div>
+      <div class="skills-grid">
+        <!-- LANGUAGES -->
+        <div class="skill-card fade-in">
+          <p class="skill-card-title">Languages</p>
+          <div class="skill-list">
+            <span class="skill-item"><i class="devicon-javascript-plain colored"></i>JavaScript</span>
+            <span class="skill-item"><i class="devicon-python-plain colored"></i>Python</span>
+            <span class="skill-item"><i class="devicon-html5-plain colored"></i>HTML5</span>
+            <span class="skill-item"><i class="devicon-css3-plain colored"></i>CSS3</span>
+            <span class="skill-item"><i class="devicon-java-plain colored"></i>Java</span>
+            <span class="skill-item"><i class="devicon-dart-plain colored"></i>Dart</span>
+            <span class="skill-item"><i class="devicon-typescript-plain colored"></i>TypeScript</span>
+          </div>
+        </div>
+        <!-- FRAMEWORKS -->
+        <div class="skill-card fade-in">
+          <p class="skill-card-title">Frameworks &amp; Libraries</p>
+          <div class="skill-list">
+            <span class="skill-item"><i class="devicon-react-original colored"></i>React</span>
+            <span class="skill-item"><i class="devicon-nodejs-plain colored"></i>Node.js</span>
+            <span class="skill-item"><i class="devicon-tailwindcss-plain colored"></i>Tailwind CSS</span>
+            <span class="skill-item"><i class="devicon-flutter-plain colored"></i>Flutter</span>
+            <span class="skill-item skill-item--dark-icon"><i class="devicon-nextjs-plain"></i>Next.js</span>
+          </div>
+        </div>
+        <!-- TOOLS -->
+        <div class="skill-card fade-in">
+          <p class="skill-card-title">Tools &amp; Platforms</p>
+          <div class="skill-list">
+            <span class="skill-item"><i class="devicon-git-plain colored"></i>Git</span>
+            <span class="skill-item skill-item--dark-icon"><i class="devicon-github-original"></i>GitHub</span>
+            <span class="skill-item"><i class="devicon-postman-plain colored"></i>Postman</span>
+            <span class="skill-item"><i class="devicon-jupyter-plain colored"></i>Jupyter</span>
+            <span class="skill-item"><i class="devicon-docker-plain colored"></i>Docker</span>
+            <span class="skill-item skill-item--dark-icon"><i class="devicon-vercel-plain"></i>Vercel</span>
+            <span class="skill-item"><span class="skill-icon-fallback">🚀</span>Render</span>
+            <span class="skill-item"><span class="skill-icon-fallback">⚙️</span>n8n</span>
+            <span class="skill-item"><span class="skill-icon-fallback">🔒</span>Ngrok</span>
+          </div>
+        </div>
+        <!-- DATABASES -->
+        <div class="skill-card fade-in">
+          <p class="skill-card-title">Databases</p>
+          <div class="skill-list">
+            <span class="skill-item"><i class="devicon-mysql-plain colored"></i>MySQL</span>
+            <span class="skill-item"><i class="devicon-mongodb-plain colored"></i>MongoDB</span>
+            <span class="skill-item"><i class="devicon-supabase-plain colored"></i>Supabase</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PROJECTS
+  ============================================================ -->
+  <section id="projects">
+    <div class="container">
+      <p class="section-label fade-in">What I've built</p>
+      <h2 class="section-title fade-in">Projects</h2>
+      <div class="divider fade-in"></div>
+      <ul class="project-list" id="project-list">
+
+        <!-- PROJECT 1 -->
+        <li class="project-item fade-in">
+          <div class="project-left">
+            <p class="project-title">Space Journal App</p>
+            <p class="project-desc">
+              &nbsp; A Flutter app powered by NASA's APOD API that lets users explore daily space imagery, pick any date since 1995, and save favorites with personal notes to local Hive storage. Features full offline CRUD, Hero transitions, and a polished space-themed UI with custom gradients.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Flutter</span>
+              <span class="project-tag">NASA's APOD API</span>
+              <span class="project-tag">Hive CE</span>
+            </div>
+          </div>
+          <div class="project-right">
+            <span class="badge badge-public">Public</span>
+            <a
+              href="https://github.com/pxndpp/Space_Journal_App"
+              class="project-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              id="project-2-github"
+              aria-label="View Space Journal App on GitHub"
+            >
+              <!-- GitHub icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              GitHub
+            </a>
+          </div>
+        </li>
+
+        <!-- PROJECT 2 -->
+        <!--<li class="project-item fade-in">
+          <div class="project-left">
+            <p class="project-title">Project Name </p>
+            <p class="project-desc">
+              &nbsp; Project info
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Project Tag</span>
+              <span class="project-tag">Project Tag</span>
+              <span class="project-tag">Project Tag</span>
+              <span class="project-tag">Project Tag</span>
+            </div>
+          </div>
+          <div class="project-right">
+            <span class="badge badge-private">Private</span>
+          </div>
+        </li> -->
+
+        <!-- PROJECT 2 -->
+         <li class="project-item fade-in">
+          <div class="project-left">
+            <p class="project-title">Construction Store Line Official Account</p>
+            <p class="project-desc">
+              &nbsp; Built a LINE Official Account (OA) integrated ordering system enabling customers to browse catalogs, submit RFQs, and pay via PromptPay — all within LINE. Developed a Node.js backend handling webhook events, LINE Flex Messages, and payment slip verification, with admin inventory/order management dashboards.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">Supabase</span>
+              <span class="project-tag">Node.js</span>
+              <span class="project-tag">LINE SDK</span>
+            </div>
+          </div>
+          <div class="project-right">
+            <span class="badge badge-public">Public</span>
+            <a
+              href="https://github.com/pxndpp/MateriaBot-LineOA-bot"
+              class="project-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              id="project-2-github"
+              aria-label="View Construction Store LineOA on GitHub"
+            >
+              <!-- GitHub icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              GitHub
+            </a>
+          </div>
+        </li>
+
+        <!-- PROJECT 3 -->
+         <li class="project-item fade-in">
+          <div class="project-left">
+            <p class="project-title">GuestBook DApp</p>
+            <p class="project-desc">
+              &nbsp; A decentralized Guestbook application running on the Blockchain. Users can connect their crypto wallets, sign their names, and leave messages that are permanently stored on-chain.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Solidity</span>
+              <span class="project-tag">Alpine.js</span>
+              <span class="project-tag">Ethers.js</span>
+            </div>
+          </div>
+          <div class="project-right">
+            <span class="badge badge-public">Public</span>
+            <a
+              href="https://github.com/pxndpp/GuestBook_DApp"
+              class="project-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              id="project-2-github"
+              aria-label="View GuestBook_DApp on GitHub"
+            >
+              <!-- GitHub icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              GitHub
+            </a>
+          </div>
+        </li>
+
+  </section>
+
+  <!-- ============================================================
+       EDUCATION
+  ============================================================ -->
+  <section id="education">
+    <div class="container">
+      <p class="section-label fade-in">My background</p>
+      <h2 class="section-title fade-in">Education</h2>
+      <div class="divider fade-in"></div>
+      <div class="education-list">
+
+        <div class="edu-card fade-in">
+          <div>
+            <p class="edu-degree">Bachelor of Science (B.Sc.) in Computer Science</p>
+            <p class="edu-school">Rangsit University</p>
+            <p class="edu-detail">Major in Computer Science &bull; GPA: 3.48 &bull; Expected Graduation on May 2027</p>
+          </div>
+          <p class="edu-period">2023 – Present</p>
+        </div>
+
+        <div class="edu-card fade-in">
+          <div>
+            <p class="edu-degree">Vocational Certificate (Voc. Cert.) in Information Technology</p>
+            <p class="edu-school">Hatyai Technical Collage</p>
+            <p class="edu-detail">Major in Information Technology &bull; GPA: 3.58</p>
+          </div>
+          <p class="edu-period">2021 – 2023</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT
+  ============================================================ -->
+  <section id="contact">
+    <div class="container">
+      <p class="section-label fade-in">Get in touch</p>
+      <h2 class="section-title fade-in">Contact</h2>
+      <div class="divider fade-in"></div>
+      <div class="contact-layout">
+
+        <!-- LEFT: Info & social links -->
+        <div class="contact-info fade-in">
+          <p>
+            I'm currently open to internship opportunities. Whether you have a question, a project idea, or just want to say hi — my inbox is always open!
+          </p>
+          <div class="social-links">
+            <!-- GitHub -->
+            <a href="https://github.com/pxndpp" target="_blank" rel="noopener noreferrer" class="social-link" id="social-github" aria-label="GitHub profile">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              pxndpp
+            </a>
+            <!-- Email -->
+            <a href="mailto:suwaphat.pp2003@gmail.com" class="social-link" id="social-email" aria-label="Send email">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+              suwaphat.pp2003@gmail.com
+            </a>
+          </div>
+        </div>
+
+        <!-- RIGHT: Contact form (Formspree) -->
+        <form
+          id="contact-form"
+          class="contact-form fade-in"
+          action="https://formspree.io/f/xdeododw"
+          method="POST"
+          novalidate
+        >
+          <div class="form-group">
+            <label for="sender-name">Name</label>
+            <input type="text" id="sender-name" name="name" placeholder="Your full name" required />
+          </div>
+          <div class="form-group">
+            <label for="sender-email">Email</label>
+            <input type="email" id="sender-email" name="email" placeholder="your@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about the opportunity or project…" required></textarea>
+          </div>
+          <div id="form-status" class="form-status" role="alert" aria-live="polite"></div>
+          <button type="submit" class="btn btn-primary" id="submit-btn">Send Message</button>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer>
+    <div class="container">
+      <p class="footer-text">
+        &copy; 2026 <a href="#hero">Suwaphat Lamaisakun</a>. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
